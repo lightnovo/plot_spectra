@@ -46,14 +46,12 @@ class raman_spectrum:
 
 dir_path = "Data/2024-12-06_test_data_miniRaman" #directory with Raman data
 
-notebook_dir = os.getcwd() #Python directory
+python_dir = os.getcwd() #Python directory
 os.chdir(dir_path)         #go to directory with data
 
 files = os.listdir()       #list all files in directory with data
 files.sort(key=lambda x: os.path.getmtime(x)) #sort files by date/time
 
-
-for f in files: print(f) #print file names in data directory
 
 # file names without .tsv extension
 f_polystyrene = "polystyrene" 
@@ -64,7 +62,7 @@ f_paracetamol = "paracetamol"
 s_polystyrene = raman_spectrum(f_polystyrene)
 s_paracetamol = raman_spectrum(f_paracetamol)
 
-os.chdir(notebook_dir) #go back to notebook directory
+os.chdir(python_dir) #go back to python directory
 
 # plot polystyrene spectrum
 plt.figure(figsize = (10,5)) #figure size
