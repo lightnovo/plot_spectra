@@ -46,7 +46,7 @@ class raman_spectrum:
 
 dir_path = "Data/2024-12-06_test_data_miniRaman" #directory with Raman data
 
-notebook_dir = os.getcwd() #Jupyter notebook directory
+notebook_dir = os.getcwd() #Python directory
 os.chdir(dir_path)         #go to directory with data
 
 files = os.listdir()       #list all files in directory with data
