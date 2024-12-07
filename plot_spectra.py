@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 
 """
 Load and Plot Lightnovo Raman Spectra
@@ -9,7 +9,6 @@ Copyright 2024 Lightnovo ApS
 Licensing: MIT License
 """
 # load all necessary libraries
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -83,4 +82,3 @@ plt.figure(figsize = (10,5)) #figure size
 s_polystyrene.plot_n(label = "polystyrene", color = "black")
 s_paracetamol.plot_n(label = "paracetamol", color = "red")
 plt.savefig('all.png', dpi = 300, bbox_inches='tight') #save figure in .png format
-
