@@ -58,7 +58,7 @@ f_polystyrene = "polystyrene"
 f_paracetamol = "paracetamol"
 
 
-# laad spectra
+# load spectra
 s_polystyrene = raman_spectrum(f_polystyrene)
 s_paracetamol = raman_spectrum(f_paracetamol)
 
