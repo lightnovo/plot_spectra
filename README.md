@@ -1,5 +1,5 @@
 # plot_spectra
-loads and plots
+Loads and plots
 Lightnovo ApS spectral files saved in .tsv format
 Python class raman_spectrum automatically loads and normalizes the data
 there is an option to plot raw data or normalized data.
