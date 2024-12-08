@@ -50,10 +50,6 @@ dir_path = "Data/2024-12-06_test_data_miniRaman" #directory with Raman data
 python_dir = os.getcwd() #Python directory
 os.chdir(dir_path)         #go to directory with data
 
-files = os.listdir()       #list all files in directory with data
-files.sort(key=lambda x: os.path.getmtime(x)) #sort files by date/time
-
-
 # file names without .tsv extension
 f_polystyrene = "polystyrene" 
 f_paracetamol = "paracetamol"
