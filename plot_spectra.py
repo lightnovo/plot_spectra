@@ -8,6 +8,7 @@ https://lightnovo.com
 Copyright 2024 Lightnovo ApS
 Licensing: MIT License
 """
+
 # load all necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
